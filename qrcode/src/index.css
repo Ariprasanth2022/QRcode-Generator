@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+
+.app-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.qrcodeimage{
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.input-label{
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15;
+  font-weight: 500;
+}
+
+input[type="text"]{
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button{
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.generate{
+  background-color: rgb(19, 93, 139);
+}
+
+.generate:disabled{
+  background-color: lightskyblue;
+  cursor: not-allowed;
+}
+
+.download{
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgb(35, 151, 35);
+}
+
+.download:hover{
+  background-color: rgb(32, 126, 32);
+
+}
+
+.footer{
+  margin-top: 30px;
+}
